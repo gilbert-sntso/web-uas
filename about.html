@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+ 
+<body>
+ 
+    <section class="container">
+ 
+        <header>
+            <div class="toggle"></div>
+        </header>
+ 
+        <div class="content">
+            <h2>Nasi padang</h2>
+            <h3>kuliner indonesia</h3>
+            <p>
+                Nasi Padang, asalnya dari Sumatera Barat, Indonesia, 
+                dikenal dengan hidangan beragam seperti rendang, gulai, dan sambal. Uniknya, makanan disajikan dalam konsep 
+                "hidangan lauk pauk" di mana pelanggan hanya membayar hidangan yang mereka habiskan. Kelezatan dan kepedasan hidangannya 
+                mencerminkan warisan rempah-rempah Minangkabau yang kaya. Nasi Padang telah mendunia dan menjadi warisan kuliner Indonesia yang diakui secara internasional.
+            </p>
+            <a href="#">Explore</a>
+        </div>
+ 
+      
+    </section>
+ 
+    <script>
+ 
+        const menuToggle = document.querySelector('.toggle');
+    
+        const container = document.querySelector('.container');
+ 
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            container.classList.toggle('active');
+        })
+    </script>
+ 
+</body>
+ 
+</html>
